@@ -6,7 +6,6 @@
 #define UTILS_DEFER_H
 
 #include <functional>
-#include <vector>
 #define CANCAT_IMP(x, y) x##y
 #define MACRO_CANCAT(x, y) CANCAT_IMP(x, y)
 

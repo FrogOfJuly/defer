@@ -2,7 +2,6 @@
 // Created by Kirill on 2019-02-28.
 //
 
-#include <iostream>
 #include "defer.h"
 
 utils::defer::defer(std::function<void(void)> instruction)
