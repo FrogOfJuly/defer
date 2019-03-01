@@ -9,7 +9,6 @@ utils::defer::defer(std::function<void(void)> instruction)
         : responsibility(std::move(instruction)) {}
 
 utils::defer::~defer() {
-    std::cout<<"calling defer destructor"<<std::endl;
     this->responsibility();
 }
 
